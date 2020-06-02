@@ -8,3 +8,9 @@
   height: 40px;
   box-sizing: border-box;
   background-color: #fff; }
+  #headBox .head_wrap {
+    width: 90%;
+    min-width: 960px;
+    max-width: 1280px;
+    height: 100%;
+    margin: auto; }
