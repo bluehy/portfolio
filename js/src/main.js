@@ -2,8 +2,8 @@
 (function($){
 // Selector part
 const body = $('body');
-const wrap = $('#wrap');
-const headBox = $('#headBox');
+const wrap = body.children('#wrap');
+const headBox = wrap.children('#headBox');
 
 
 // html,js load part
