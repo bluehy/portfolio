@@ -6,9 +6,9 @@ const wrap = body.children('#wrap');
 const headBox = wrap.children('#headBox');
 const viewBox = wrap.children('#viewBox');
 const conBox = wrap.children('#conBox');
-   const profileArea = conBox.children('.profile');
-   const workArea = conBox.children('.work');
-   const othersArea = conBox.children('.others');
+   const profileArea = conBox.children('#profile');
+   const workArea = conBox.children('#work');
+   const othersArea = conBox.children('#others');
 const footBox = wrap.children('#footBox');
 
 
@@ -40,10 +40,10 @@ const footBox = wrap.children('#footBox');
       body.append(tempS+'con_others'+tempE);
    });
 
-
    footBox.load(htmlUrl+'footBox.html',function(){
       body.append(tempS+'footBox'+tempE);
    });
+
 // function part
 
 })(jQuery);
