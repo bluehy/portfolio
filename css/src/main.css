@@ -226,29 +226,6 @@
     font-size: 14px; }
     #footBox address ul {
       margin-bottom: 0.5rem; }
-    #footBox address .page_address {
-      width: 25%;
-      margin: auto; }
-      #footBox address .page_address:after, #footBox address .page_address::after {
-        content: " ";
-        display: block;
-        width: 0;
-        height: 0;
-        clear: both; }
-      #footBox address .page_address li {
-        float: left; }
-        #footBox address .page_address li i {
-          width: 2.25rem;
-          height: 2.25rem;
-          font-size: 1.5rem;
-          line-height: 2.25rem; }
-        #footBox address .page_address li span {
-          display: block;
-          width: 0;
-          height: 0;
-          overflow: hidden; }
-      #footBox address .page_address li:last-of-type {
-        float: right; }
     #footBox address sub {
       line-height: 0.625rem;
       word-break: keep-all; }
