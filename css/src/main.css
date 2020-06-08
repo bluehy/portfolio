@@ -159,6 +159,8 @@
       #conBox #work .work_category li.action a {
         background-color: #3498db;
         color: #fff; }
+  #conBox #work .work_list {
+    width: 100%; }
   #conBox #others {
     overflow: hidden;
     max-height: 25rem; }
@@ -182,7 +184,7 @@
         overflow: hidden; }
       #conBox #others .slide_guide ul {
         width: 400%;
-        height: 100%; }
+        height: 18.75rem; }
         #conBox #others .slide_guide ul:after, #conBox #others .slide_guide ul::after {
           content: " ";
           display: block;
