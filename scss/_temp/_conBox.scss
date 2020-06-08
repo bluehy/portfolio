@@ -9,9 +9,12 @@
       ul {
          h4 {@include hidden;}
       }
-      .work_category {width: 33%; margin:auto; margin-bottom: 1rem; @include clearfix;
-         li {float:left; width: 7rem; height: 1.875rem; line-height: 1.875rem; text-align:center; @include divider;
+      .work_category {width: 33%; min-width: 21.25rem; margin:auto; margin-bottom: 1rem; @include clearfix;
+         li {float:left; width: 7rem; height: 1.875rem; line-height: 1.875rem; text-align:center; font-size: 1.1rem; @include divider;
             a {display:block; width: 80%; height: 100%; margin:auto; }
+         &.action {
+            a {background-color:$active; color: $white;}
+         }//li.action
          }
       }//.work_category
       .work_list {}
