@@ -53,13 +53,6 @@
           text-transform: capitalize;
           line-height: 40px;
           position: relative; }
-          #headBox .head_wrap #gnb .gnb_wrap li a {
-            display: block;
-            width: 90%;
-            height: 100%;
-            margin: auto; }
-          #headBox .head_wrap #gnb .gnb_wrap li:last-of-type {
-            margin-right: 0; }
           #headBox .head_wrap #gnb .gnb_wrap li:after, #headBox .head_wrap #gnb .gnb_wrap li::after {
             content: " ";
             display: block;
@@ -72,6 +65,13 @@
             transform: translateY(-50%); }
           #headBox .head_wrap #gnb .gnb_wrap li:last-of-type:after, #headBox .head_wrap #gnb .gnb_wrap li:last-of-type::after {
             display: none; }
+          #headBox .head_wrap #gnb .gnb_wrap li a {
+            display: block;
+            width: 90%;
+            height: 100%;
+            margin: auto; }
+          #headBox .head_wrap #gnb .gnb_wrap li:last-of-type {
+            margin-right: 0; }
 
 /* viewBox */
 #viewBox {
@@ -115,6 +115,45 @@
       margin-bottom: 2rem;
       font-weight: bold;
       text-align: center; }
+  #conBox #work ul h4 {
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden; }
+  #conBox #work .work_category {
+    width: 33%;
+    margin: auto;
+    margin-bottom: 1rem; }
+    #conBox #work .work_category:after, #conBox #work .work_category::after {
+      content: " ";
+      display: block;
+      width: 0;
+      height: 0;
+      clear: both; }
+    #conBox #work .work_category li {
+      float: left;
+      width: 7rem;
+      height: 1.875rem;
+      line-height: 1.875rem;
+      text-align: center;
+      position: relative; }
+      #conBox #work .work_category li:after, #conBox #work .work_category li::after {
+        content: " ";
+        display: block;
+        width: 0;
+        height: 30%;
+        border-right: 1px solid #333;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%); }
+      #conBox #work .work_category li:last-of-type:after, #conBox #work .work_category li:last-of-type::after {
+        display: none; }
+      #conBox #work .work_category li a {
+        display: block;
+        width: 80%;
+        height: 100%;
+        margin: auto; }
   #conBox #others {
     overflow: hidden;
     max-height: 25rem; }
@@ -150,9 +189,12 @@
         width: 250px;
         height: 100%;
         margin-right: 1.25rem;
-        background-color: #464159; }
+        background-color: #464159;
+        opacity: 0.5;
+        transition: all 500ms ease; }
       #conBox #others .slide_guide li.action {
-        width: 500px; }
+        width: 500px;
+        opacity: 1; }
 
 /* footBox */
 #footBox {
