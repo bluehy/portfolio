@@ -112,21 +112,33 @@
       width: 100%;
       height: auto;
       margin: auto;
+      margin-bottom: 2rem;
       font-weight: bold;
       text-align: center; }
   #conBox #others {
     overflow: hidden;
     max-height: 25rem; }
-    #conBox #others .slide_guide {
-      width: 100%;
+    #conBox #others .slide_picture {
+      float: left;
+      width: 30%;
       height: 18.75rem;
-      padding-top: 2rem;
-      padding-bottom: 1rem;
+      margin-right: 1rem;
+      background-color: #9be3de; }
+    #conBox #others .slide_guide {
+      float: left;
+      width: 60%;
+      height: 18.75rem;
+      padding-bottom: 3rem;
       overflow-x: scroll;
       overflow-y: hidden; }
+      #conBox #others .slide_guide h4 {
+        display: block;
+        width: 0;
+        height: 0;
+        overflow: hidden; }
       #conBox #others .slide_guide ul {
-        width: 300%;
-        height: auto; }
+        width: 400%;
+        height: 100%; }
         #conBox #others .slide_guide ul:after, #conBox #others .slide_guide ul::after {
           content: " ";
           display: block;
@@ -136,7 +148,7 @@
       #conBox #others .slide_guide li {
         float: left;
         width: 250px;
-        height: 250px;
+        height: 100%;
         margin-right: 1.25rem;
         background-color: #464159; }
       #conBox #others .slide_guide li.action {
